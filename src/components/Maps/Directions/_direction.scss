@@ -1,0 +1,21 @@
+.directions {
+  margin-top: 10px;
+  display: flex;
+  background-color: #fafafa;
+  border-radius: 9px;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, .102), 0 2px 8px rgba(0, 0, 0, .102);
+  height: 110px;
+  padding: 20px;
+  justify-content: space-between;
+  
+  .originDestination {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .originDestinationLabel {
+      font-weight: bold;
+      font-size: 17px;
+    }
+  }
+}
